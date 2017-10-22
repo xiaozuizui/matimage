@@ -23,8 +23,8 @@ depth = zeros(height,width);
             norm(i,j,3)=Feature((i-1)*width+j,11);
             
             texture1(i,j,1)=Feature((i-1)*width+j,12);
-            texture1(i,j,2)=Feature((i-1)*width+j,12);
-            texture1(i,j,3)=Feature((i-1)*width+j,12);
+            texture1(i,j,2)=Feature((i-1)*width+j,13);
+            texture1(i,j,3)=Feature((i-1)*width+j,14);
             
             texture2(i,j,1)=Feature((i-1)*width+j,15);
             texture2(i,j,2)=Feature((i-1)*width+j,16);
